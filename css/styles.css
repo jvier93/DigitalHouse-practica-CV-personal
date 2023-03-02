@@ -1,0 +1,68 @@
+ul {
+  list-style: none;
+}
+
+* {
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+main p {
+  padding: 1rem;
+  text-align: justify;
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  background-color: #e6e6e6;
+  color: #005677;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+header {
+  text-align: center;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+header div a {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #005677;
+  font-weight: bold;
+}
+
+ion-icon {
+  font-size: 64px;
+  color: white;
+}
+
+footer {
+  background-color: #005677;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
